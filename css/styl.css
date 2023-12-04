@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+body {
+    background-color: #f4e9db;
+    
+    /* font-size: 16px; 
+    font-weight: normal;
+    font-family:'Courier New', Courier, monospace;*/
+
+    font: normal 16px 'Courier New', Courier, monospace;
+}
+
+.nick{
+    padding: 5px;
+}
+h1 {
+    font: bold 72px Barlow Condensed, sans-serif;
+    margin: auto;
+}
+
+h2 {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+h3 {
+    margin: auto;
+}
+
+.image_1 {
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 14px rgb(209, 162, 100); 
+}
+
+.info{
+    margin: 10px;
+    display: flex;
+}
+
+.info-text{
+    margin-left: 20px;
+}
+
+.info-text p {
+    color: black;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: 600;
+    /* text-decoration: underline overline #FF3028; */
+}
+
+.infoblock {
+    padding: 10px 20px 0px;
+    margin: 0px;
+}
+
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+    .nick {
+        text-align: center;
+padding-bottom: 5px;
+    }
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 14px rgb(209, 162, 100); 
+}
+
+.social {
+    background:#ecc79a ;
+    text-align: center;
+}
+.social-mini{
+    margin:0px -10px -10px;
+    padding: 9px 0px 10px;
+    border-radius: 12px;
+    background: #ebd6bc;
+    box-shadow: 1px -4px 5px -1px rgb(209, 162, 100);
+}
+.social-mini li{
+    padding: 0px 10px 0px;
+}
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+ul li {
+    margin-top: 5px;
+}
+.social a{
+    color: #805826;
+    text-decoration: none;
+}
+.social a:hover {
+    text-decoration: underline;
+}
+.social a:active{
+    color: black;
+}
+.social a:visited{
+    color: #cc9754;
+}
+
+.language{
+    background: #ecc79a;
+}
+ol {
+    list-style: none;
+    padding: 0px;
+}
+ol li {
+    padding-right: 50px;
+    border-bottom:thick double #90b3de;
+}
+
+.projects{
+    background: #ecc79a;
+    margin-top: 20px;
+}
+.projects h3{
+    text-align: center;
+}
+.table {
+    width: 100%;
+    margin-bottom: -10px;
+    margin-right: 10px;
+    padding: 9px 1px 10px;
+    border-radius: 12px;
+    background: #ebd6bc;
+    box-shadow: 1px -4px 5px -1px rgb(209, 162, 100);
+}
+
+.table td{
+    padding: 10px;
+}
+.table td:nth-child(1){
+    font-weight: 600;
+}
+.table td:nth-child(2){
+    font-style: italic;
+}
+.table th{
+    text-align: left;
+    padding: 10px;
+}
+
+.table a{
+    color: black;
+    text-decoration: none;
+}
+.table a:hover {
+    color: #805826;
+    text-decoration: underline;
+}
+.table a:active{
+    color: black;
+}
+.table a:visited{
+    color: #cc9754;
+}
+.connection{
+    background: #ecc79a;
+    margin-top: 20px;
+}
+.connection h3 {
+    text-align: center;
+}
+.con-mini{
+    margin: 0px;
+    margin-bottom: -10px;
+    padding: 9px 5px 10px;
+    border-radius: 12px;
+    background: #ebd6bc;
+    box-shadow: 1px -4px 5px -1px rgb(209, 162, 100);
+}
+
+.form-group label{
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+.form-group input{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-radius: 12px;
+border: 4px solid #ecc79a;
+border-top: none;
+padding: 5px 2px 2px;
+margin-bottom: 10px;
+outline: none;
+font-family: inherit;
+font-size: 16px;
+font-style: italic;
+}
+
+.row{
+    display: flex;
+    margin: 20px 10px 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+
+}
+.row > .form-group:first-child{
+    margin-right: 30px;
+}
+
+.form-group:last-child label{
+    text-align: center;
+}
+.form-group textarea {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 12px;
+    border: 4px solid #ecc79a;
+    border-top: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+.button input {
+    float: inline-start;
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+    border: 5px solid #ecc79a; 
+    border-top: none;
+    background: #ebd6bc;
+    box-shadow: 8px 8px 14px rgb(209, 162, 100);
+    font-weight: 600;
+}
+.button input:hover{
+    color: black;
+    background: #e2c49f;
+    border: 5px solid #e6b478; 
+}
+.button input:active{
+    color: black;
+    background: #d7ae7c;
+    border: 5px solid #dd9948; 
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+}
