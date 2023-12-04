@@ -182,11 +182,23 @@ h3{
     box-shadow: 8px 8px 14px var(--shadow-color);
     cursor: pointer;
 }
-@media screen and (max-width: 700px){
-    .header{
+@media screen and (max-width: 1000px){
+    .header h1{
         text-align: center;
     }
-    .info{
-        flex-direction: column;
+    .header h2{
+        margin-left: 30px;
     }
+    .info{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .image{
+        margin-left: 30px;
+    }
+    .card_language h3{
+        text-align: center;
+    }
+
 }
